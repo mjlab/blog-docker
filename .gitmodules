@@ -1,0 +1,3 @@
+[submodule "mjlab.github.io"]
+	path = mjlab.github.io
+	url = https://github.com/mjlab/mjlab.github.io.git
