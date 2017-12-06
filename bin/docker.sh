@@ -12,6 +12,7 @@ function jekyll_new {
 function jekyll_run {
   path=$1
 
+  echo $JEKYLL_GITHUB_TOKEN
   docker run --rm \
     -e JEKYLL_GITHUB_TOKEN=$JEKYLL_GITHUB_TOKEN \
     -p 4000:4000 \
